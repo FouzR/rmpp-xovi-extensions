@@ -2,8 +2,7 @@ name: Build with RMPP Toolchain and Upload Releases
 
 on:
     push:
-        tags:
-          - '*'
+        branches: [ master ]
 
 jobs:
     build:
